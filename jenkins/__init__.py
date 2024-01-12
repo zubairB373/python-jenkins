@@ -54,7 +54,7 @@ import sys
 import time
 import warnings
 
-import multi_key_dict
+#import multi_key_dict
 import six
 from six.moves.http_client import BadStatusLine
 from six.moves.urllib.error import HTTPError
