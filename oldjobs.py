@@ -1,12 +1,15 @@
 import jenkins
+# http://jenkins-webapi.readthedocs.org/en/latest/
+#from jira.client import JIRA
+import re
+import xml.etree.ElementTree as ET
+import sys
 import time
-# It comes with pip module python-jenkins
-# use pip to install python-jenkins
+import requests
 
-# Jenkins Authentication URL
-JENKINS_URL = "https://xxxx"
-JENKINS_USERNAME = "xxxxx"
-JENKINS_PASSWORD = "xxxxxxx"
+JENKINS_URL = "https://care-jenkins.qa.care.usw2.khorostech.com"
+JENKINS_USERNAME = "zubair.bhat"
+JENKINS_PASSWORD = "Python@12345"
 
 
 class DevOpsJenkins:
