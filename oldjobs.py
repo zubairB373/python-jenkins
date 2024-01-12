@@ -17,5 +17,5 @@ JENKINS_PASSWORD = "Python@12345"
 j = jenkins.Jenkins(JENKINS_URL, username=JENKINS_USERNAME, password=JENKINS_PASSWORD)
 user = j.get_whoami()
 version = self.jenkins_server.get_version()
-        print ("Jenkins Version: {}".format(version))
-        print ("Jenkins User: {}".format(user['id']))
+print ("Jenkins Version: {}".format(version))
+print ("Jenkins User: {}".format(user['id']))
